@@ -2,7 +2,7 @@
 V2ray多合一脚本，支持VMESS+websocket+TLS+Nginx、VLESS+TCP+XTLS、VLESS+TCP+TLS等组合
 脚本原作者为网络跳越，网络跳越由于工作原因，停止维护该脚本，目前由ifeng开始维护。维护后的脚本可以在纯ipv6网络环境的主机上使用。使用过程中遇到问题，欢迎进入Tg群组（ https://t.me/HiaiFeng ）交流。
 
-##脚本支持：
+## 脚本支持：
 <li>VMESS，即最普通的V2ray服务器，没有伪装，也不是VLESS</li>
 <li>VMESS+KCP，传输协议使用mKCP，VPS线路不好时可能有奇效</li>
 <li>VMESS+TCP+TLS，带伪装的V2ray，不能过CDN中转</li>
@@ -14,11 +14,15 @@ V2ray多合一脚本，支持VMESS+websocket+TLS+Nginx、VLESS+TCP+XTLS、VLESS+
 <li>TROJAN</li>
 <li>TROJAN+XTLS(推荐)</li>
 <br>
-<p>##安装方法：</p>
+
+
+## 安装方法：
 bash <(curl -sL https://raw.githubusercontent.com/hiifeng/v2ray/main/install_v2ray.sh)<br>
+
 如果没有出现安装菜单，CentOS系统请输入 yum install -y curl，Ubuntu/Debian系统请输入 sudo apt install -y curl，然后再次运行上面的命令。<br>
-<br>
-<p>##维护更新：</p>
+
+
+## 维护更新：
 2022年12月14日<br>
 <p>修改在ipv4&ipv6双栈主机下，DNS同时解析ipv4和ipv6记录，脚本判断域名是否解析正确的Bug。</p>
 2022年12月09日<br>
